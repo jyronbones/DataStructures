@@ -1,8 +1,5 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
-/*
- * This class contains the dynamically allocated array and it's processing
- */
 /**
  * This class contains the dynamically allocated array and it's processing
  * Student Name: 
@@ -23,9 +20,6 @@ public class Numbers {
 	 */
 	private int numItems;
 
-	/*
-	 * Default Constructor
-	 */
 	/**
 	 * Default Constructor
 	 */
@@ -33,9 +27,6 @@ public class Numbers {
 		this.numbers = new Float[10];
 	}
 
-	/*
-	 * Constructor that initializes the numbers array.
-	 */
 	/**
 	 * Constructor that initializes the numbers array.
 	 * @param size - Max size of the numbers array
@@ -44,9 +35,6 @@ public class Numbers {
 		this.numbers = new Float[size];
 	}
 	
-	/*
-	 * Adds a value in the array
-	 */
 	/**
 	 * Adds a value in the array
 	 * @param keyboard - Scanner object to use for input
@@ -69,9 +57,6 @@ public class Numbers {
 		keyboard.nextLine();
 	}
 	
-	/*
-	 * Calculates the average of all the values in the numbers array.
-	 */
 	/**
 	 * Calculates the average of all the values in the numbers array.
 	 * @return float value that represents the average
@@ -88,9 +73,6 @@ public class Numbers {
 		return total / numItems;
 	}
 	
-	/*
-	 * Calculates the max, min and max mod min of all the values in the numbers array.
-	 */
 	/**
 	 * Calculates the max, min and max mod min of all the values in the numbers array.
 	 */
@@ -118,9 +100,6 @@ public class Numbers {
 		System.out.printf("Average is: %.2f, Minimum value is %.1f, Maximum value is %.1f, Max Mod Min is %.1f\n\n", calcAverage(), min, max, maxModMin);
 	}
 
-	/*
-	 * Returns a string of values in the array
-	 */
 	/**
 	 * Returns a string of values in the array
 	 */
