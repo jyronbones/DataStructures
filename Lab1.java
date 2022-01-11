@@ -1,8 +1,5 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
-/*
- * This class contains method main and the menu
- */
 /**
  * CET - CS Academic Level 3
  * This class contains the dynamically allocated array and it's processing
@@ -37,10 +34,7 @@ public class Lab1 {
 	 * Stores value for option to exit program
 	 */
 	private final static int EXIT = 6;
-
-	/*
-	 * This class is the driver method and contains the menu method.
-	 */
+	
 	/**
 	 * This class is the driver method and contains the menu method.
 	 * @param args is the runtime argument array
@@ -49,9 +43,6 @@ public class Lab1 {
 		displayMainMenu();
 	}
 	
-	/*
-	 * Displays a menu to user with selection of options.
-	 */
 	/**
 	 * Displays a menu to user with selection of options.
 	 */
