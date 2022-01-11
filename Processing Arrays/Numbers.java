@@ -69,7 +69,6 @@ public class Numbers {
 				continue;
 			total += numbers[i];
 		}
-		
 		return total / numItems;
 	}
 	
