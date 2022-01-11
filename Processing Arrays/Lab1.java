@@ -60,7 +60,6 @@ public class Lab1 {
 						+ "\n6: To Exit" + "\n>");
 				String option1 = input.nextLine();
 				int option = Integer.parseInt(option1);
-
 				switch (option) {
 				case INIT_ARRAY:
 					numbers = new Numbers();
