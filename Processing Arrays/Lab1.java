@@ -92,8 +92,12 @@ public class Lab1 {
 					System.out.println("\nIncorrect selection\n");
 					break;
 				}
-			} catch (NumberFormatException | InputMismatchException e) {
+			} catch (NumberFormatException e) {
+				System.err.println("Incorrect number format");
+
+			} catch (InputMismatchException ee) {
 				System.err.println("Input mismatch");
+				input.nextLine();
 			}
 		} while (continueProgram);
 		input.close();
