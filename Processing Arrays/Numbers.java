@@ -63,8 +63,7 @@ public class Numbers {
 	 */
 	public float calcAverage() {
 		float total = 0.0f;
-		int i;
-		for (i = 0; i < numbers.length; i++) { // summing elements in the array and skipping nulls
+		for (int i = 0; i < numbers.length; i++) { // summing elements in the array and skipping nulls
 			if (numbers[i] == null)
 				continue;
 			total += numbers[i];
