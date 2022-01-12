@@ -52,7 +52,6 @@ public class Numbers {
 			numItems++;
 		} catch (InputMismatchException e) {
 			System.err.println("Input mismatch");
-			keyboard.nextLine();
 		}
 		keyboard.nextLine();
 	}
