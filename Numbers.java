@@ -166,7 +166,7 @@ public class Numbers {
 	 */
 	public void saveValuesFile(Scanner keyboard) {
 		// ask the user for filename
-		System.out.println("Name of file to read from:");
+		System.out.println("Name of file to save to:");
 		String fileName = keyboard.nextLine();
 		while (true) { // ensures filename is of type txt
 			if (!fileName.endsWith(".txt")) {
