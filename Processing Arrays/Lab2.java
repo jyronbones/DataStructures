@@ -1,11 +1,7 @@
-import java.util.InputMismatchException;
+import java.utihttps://github.com/jyronbones/DataStructures/tree/main/Processing%20Arraysl.InputMismatchException;
 import java.util.Scanner;
- * CET - CS Academic Level 3
+/**
  * This class contains the dynamically allocated array and it's processing
- * Student Name: Byron Jones
- * Student Number: 040585687
- * Course: CST8130 - Data Structures
- * @author/Professor: James Mwangi PhD. 
  * 
   */
 public class Lab2 {
