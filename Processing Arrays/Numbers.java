@@ -8,12 +8,6 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 /**
  * This class contains the dynamically allocated array and it's processing
- * Student Name: 
- * Student Number: 
- * Course: CST8130 - Data Structures
- * CET-CS-Level 3
- * @author/Professor James Mwangi PhD. 
- * 
   */
 public class Numbers {
 	/**
