@@ -43,7 +43,7 @@ public class Lab2 {
 	private final static int EXIT = 9;
 
 	/**
-	 * This class is the driver method and contains the menu method.
+	 * Driver method and contains the menu method.
 	 * @param args is the runtime argument array
 	 */
 	public static void main(String[] args) {
