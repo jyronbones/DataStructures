@@ -76,8 +76,7 @@ public class Assign1 {
 					System.out.println("Exiting...");
 					continueProgram = false;
 					break;
-
-				default:
+				default: // default case for invalid option
 					System.out.println("Invalid option, please enter option 1-5...");
 					break;
 				}
