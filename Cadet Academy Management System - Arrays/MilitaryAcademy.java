@@ -101,13 +101,27 @@ public class MilitaryAcademy{
                 scan.next();
             }
         }
-        for (int i = 0; i < numCadets; i++) {
-            if (tempCadetNum == cadets[i].getCadetNumber()) {
-                System.out.println("Cadet found at index " + i);
-            	System.out.println(cadets[i]);
-                return;                
+        int start = 0, end = numCadets - 1;
+
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+
+            // Check if cadet number is present at mid
+            if (cadets[mid].getCadetNumber() == tempCadetNum) {
+                System.out.println("Cadet found at index " + mid);
+            	System.out.println(cadets[mid]);
+                return;
             }
+
+            // If cadet number greater, ignore left half
+            if (cadets[mid].getCadetNumber() < tempCadetNum)
+                start = mid + 1;
+
+                // If cadet number is smaller, ignore right half
+            else
+                end = mid - 1;
         }
+        // cadet number is not present
         System.out.println("Cadet not found in Military Academy");
     }
 
